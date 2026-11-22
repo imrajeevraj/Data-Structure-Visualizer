@@ -1,0 +1,13 @@
+PASS  Linked list indices, links and duplicate values
+PASS  Stack LIFO and queue FIFO
+PASS  BST deletion and three traversals
+PASS  AVL LL / RR / LR / RL trace topology
+PASS  AVL deletion and zero-child-balance cases
+PASS  5,000 randomized BST / AVL updates
+PASS  2,200 randomized linear updates
+PASS  30-node limits and input validation
+PASS  Immutable before / after snapshots
+PASS  Guided demos and height comparison
+PASS  Timer playback, pause, replay and cancel
+PASS  Swing actions, validation, sizing and rendering
+PASS: 12 verification groups; 718260 assertions; 1.74 seconds.

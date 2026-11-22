@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="12" skipped="0" failures="0" errors="0" time="1.844" hostname="RAJEEV-MSI" timestamp="2026-10-14T01:06:46">
+<properties>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="\"/>
+<property name="java.awt.headless" value="true"/>
+<property name="java.class.path" value="build/tools/junit-platform-console-standalone-1.11.4.jar"/>
+<property name="java.class.version" value="65.0"/>
+<property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
+<property name="java.io.tmpdir" value="C:\Users\rajee\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\rajee\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\rajee\.codex\tmp\arg0\codex-arg0qMdywc;C:\Users\rajee\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\rajee\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\rajee\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\rajee\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\MinGW\bin;C:\MinGW\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Users\rajee\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\rajee\.cargo\bin;C:\Program Files\Java\jdk-21.0.10\bin;C:\msys64\mingw64\bin;C:\Users\rajee\AppData\Roaming\Python\Python311\Scripts;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\Users\rajee\tools\flutter\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\rajee\.local\bin;C:\Users\rajee\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\rajee\AppData\Local\Microsoft\WindowsApps;C:\Users\rajee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rajee\AppData\Local\Python\bin;C:\Users\rajee\AppData\Local\GitHubDesktop\bin;C:\Users\rajee\.dotnet\tools;C:\U;C:\Users\rajee\.dotnet\tools;C:\Users\rajee\AppData\Local\Programs\Antigravity\bin;C:\Users\rajee\go\bin;C:\Users\rajee\AppData\Roaming\npm;C:\Users\rajee\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\rajee\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\rajee\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\rajee\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\rajee\AppData\Local\OpenAI\Codex\bin\9a7ba4b9ea0c44a3;C:\Users\rajee\AppData\Local\OpenAI\Codex\bin\2e5e00daee91c61d;."/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="21"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="https://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+<property name="java.version" value="21.0.10"/>
+<property name="java.version.date" value="2026-01-20"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="java.vm.info" value="mixed mode, sharing"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="21"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="21.0.10+8-LTS-217"/>
+<property name="jdk.debug" value="release"/>
+<property name="junit.docs.version" value="1.11.4"/>
+<property name="line.separator" value="&#13;&#10;"/>
+<property name="native.encoding" value="Cp1252"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 11"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="stderr.encoding" value="Cp1252"/>
+<property name="stdout.encoding" value="Cp1252"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.awt.enableExtraMouseButtons" value="true"/>
+<property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="build/tools/junit-platform-console-standalone-1.11.4.jar execute --class-path build/classes;build/test-classes --select-class edu.rungta.dsv.ModelJUnitTest --reports-dir build/junit-reports --disable-ansi-colors"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1252"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="GB"/>
+<property name="user.dir" value="D:\Projects\Data Structure Visualizer"/>
+<property name="user.home" value="C:\Users\rajee"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="rajee"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="Asia/Calcutta"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="linkedList()" classname="edu.rungta.dsv.ModelJUnitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:linkedList()]
+display-name: linkedList()
+]]></system-out>
+</testcase>
+<testcase name="avlDeletion()" classname="edu.rungta.dsv.ModelJUnitTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:avlDeletion()]
+display-name: avlDeletion()
+]]></system-out>
+</testcase>
+<testcase name="stackQueue()" classname="edu.rungta.dsv.ModelJUnitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:stackQueue()]
+display-name: stackQueue()
+]]></system-out>
+</testcase>
+<testcase name="rotations()" classname="edu.rungta.dsv.ModelJUnitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:rotations()]
+display-name: rotations()
+]]></system-out>
+</testcase>
+<testcase name="randomizedTrees()" classname="edu.rungta.dsv.ModelJUnitTest" time="0.554">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:randomizedTrees()]
+display-name: randomizedTrees()
+]]></system-out>
+</testcase>
+<testcase name="immutableSnapshots()" classname="edu.rungta.dsv.ModelJUnitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:immutableSnapshots()]
+display-name: immutableSnapshots()
+]]></system-out>
+</testcase>
+<testcase name="randomizedLinear()" classname="edu.rungta.dsv.ModelJUnitTest" time="0.024">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:randomizedLinear()]
+display-name: randomizedLinear()
+]]></system-out>
+</testcase>
+<testcase name="swing()" classname="edu.rungta.dsv.ModelJUnitTest" time="1.193">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:swing()]
+display-name: swing()
+]]></system-out>
+</testcase>
+<testcase name="boundaries()" classname="edu.rungta.dsv.ModelJUnitTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:boundaries()]
+display-name: boundaries()
+]]></system-out>
+</testcase>
+<testcase name="demos()" classname="edu.rungta.dsv.ModelJUnitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:demos()]
+display-name: demos()
+]]></system-out>
+</testcase>
+<testcase name="bst()" classname="edu.rungta.dsv.ModelJUnitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:bst()]
+display-name: bst()
+]]></system-out>
+</testcase>
+<testcase name="playback()" classname="edu.rungta.dsv.ModelJUnitTest" time="0.038">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:edu.rungta.dsv.ModelJUnitTest]/[method:playback()]
+display-name: playback()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
